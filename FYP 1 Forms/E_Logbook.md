@@ -1,6 +1,6 @@
-# E-Logbook
+# E-Logbook 📑
 
-Here are the links to the 12 weeks of E-Logbooks:
+Here are the links to the 12 weeks of E-Logbooks ✍️:
 
 1. <a href="https://docs.google.com/document/d/1FORSctLULuvBfuTsyQ1BIUWtBchWTWIeewLLG78sRU8/edit?usp=sharing" target="_blank">Week 1</a>
 2. <a href="https://docs.google.com/document/d/1o7fVEB7McEcbFRSsPAhMpF1hKRFO2dLnvbJatfJl6-c/edit?usp=sharing" target="_blank">Week 2</a>
