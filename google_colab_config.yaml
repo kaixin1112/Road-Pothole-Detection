@@ -1,6 +1,0 @@
-path: '/content/gdrive/My Drive/FYP_Part_1_24251/data' # dataset root dir
-train: images/train # train images (relative to 'path')
-val: images/val # val images (relative to 'path')
-
-names:
- 0: pothole
