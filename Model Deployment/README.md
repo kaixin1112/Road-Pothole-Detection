@@ -23,7 +23,6 @@ Ensure the following dependencies are installed:
 
 ```bash
 sudo apt update
-
 sudo apt install -y python3-pip python3.10-venv
 sudo apt install -y python3.10-dev python3.10-distutils python3-tk libfuse2 graphviz libgraphviz-dev
 sudo apt install -y wslu
