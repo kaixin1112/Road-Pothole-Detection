@@ -1,2 +1,2 @@
 YOLOv8n
-- 19/5/2025: SpotNet_V1a.hef
+- 19/5/2025: SpotNet_v1a.hef
