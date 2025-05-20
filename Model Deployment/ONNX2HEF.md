@@ -14,6 +14,8 @@ Ensure the following dependencies are installed:
 - Internet access for downloads
 - A `.onnx` model file (e.g., `best.onnx`)
 - A folder containing calibration images (e.g., `images/train`)
+> ⚠️ **Important:** Make sure your calibration images are in the same resolution as your ONNX input shape (e.g., `640x640` or `1024x1024`). Mismatched sizes may cause poor calibration or inference issues.
+
 
 ---
 
