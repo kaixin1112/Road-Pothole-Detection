@@ -9,9 +9,8 @@ This md file provides a comprehensive guide on using **DeGirum PySDK**, **DeGiru
 
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
-3. [Installation](#installation)  
-4. [Running and Configuring Jupyter Notebooks](#running-and-configuring-jupyter-notebooks) 
-5. [Additional Resources](#additional-resources) 
+3. [Installation](#installation) 
+4. [Additional Resources](#additional-resources) 
 
 ---
 
