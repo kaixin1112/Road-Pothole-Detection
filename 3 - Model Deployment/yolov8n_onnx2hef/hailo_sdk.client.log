@@ -1,0 +1,40 @@
+2025-06-08 01:03:26,179 - INFO - parser.py:162 - Translation started on ONNX model yolov8n
+2025-06-08 01:03:26,234 - INFO - parser.py:197 - Restored ONNX model yolov8n (completion time: 00:00:00.05)
+2025-06-08 01:03:26,692 - INFO - parser.py:220 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.51)
+2025-06-08 01:03:27,640 - INFO - onnx_translator.py:2640 - NMS structure of yolov8 (or equivalent architecture) was detected.
+2025-06-08 01:03:27,640 - INFO - onnx_translator.py:2642 - In order to use HailoRT post-processing capabilities, these end node names should be used: /model.22/cv2.0/cv2.0.2/Conv /model.22/cv3.0/cv3.0.2/Conv /model.22/cv2.1/cv2.1.2/Conv /model.22/cv3.1/cv3.1.2/Conv /model.22/cv3.2/cv3.2.2/Conv /model.22/cv2.2/cv2.2.2/Conv.
+2025-06-08 01:03:27,696 - INFO - parser.py:378 - Start nodes mapped from original model: 'images': 'yolov8n/input_layer1'.
+2025-06-08 01:03:27,696 - INFO - parser.py:379 - End nodes mapped from original model: '/model.22/cv2.0/cv2.0.2/Conv', '/model.22/cv3.0/cv3.0.2/Conv', '/model.22/cv2.1/cv2.1.2/Conv', '/model.22/cv3.1/cv3.1.2/Conv', '/model.22/cv2.2/cv2.2.2/Conv', '/model.22/cv3.2/cv3.2.2/Conv'.
+2025-06-08 01:03:27,836 - INFO - parser.py:292 - Translation completed on ONNX model yolov8n (completion time: 00:00:01.66)
+2025-06-08 01:03:28,638 - INFO - client_runner.py:1876 - Saved HAR to: /home/ching/yolov8n.har
+2025-06-08 01:03:29,053 - INFO - client_runner.py:496 - Loading model script commands to yolov8n from /home/ching/hailo_model_zoo/hailo_model_zoo/cfg/alls/generic/yolov8n.alls
+2025-06-08 01:03:29,089 - INFO - client_runner.py:499 - Loading model script commands to yolov8n from string
+2025-06-08 01:03:29,555 - INFO - calib_set_generator.py:117 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2025-06-08 01:03:29,725 - IMPORTANT - sdk_backend.py:1191 - Starting Model Optimization
+2025-06-08 01:03:31,749 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's no available GPU
+2025-06-08 01:03:31,749 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2025-06-08 01:03:31,750 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2025-06-08 01:03:34,852 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2025-06-08 01:03:35,012 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2025-06-08 01:03:35,620 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.61)
+2025-06-08 01:03:35,807 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2025-06-08 01:03:36,270 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2025-06-08 01:03:36,272 - INFO - stats_collection.py:77 - Using dataset with 64 entries for calibration
+2025-06-08 01:04:04,242 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:27.97)
+2025-06-08 01:04:04,989 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2025-06-08 01:04:04,990 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2025-06-08 01:04:04,990 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2025-06-08 01:04:04,990 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2025-06-08 01:04:04,990 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2025-06-08 01:04:13,129 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2025-06-08 01:04:13,130 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2025-06-08 01:04:13,138 - INFO - algorithm_base.py:149 - Adaround skipped
+2025-06-08 01:04:13,141 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2025-06-08 01:04:19,477 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2025-06-08 01:04:27,530 - IMPORTANT - sdk_backend.py:1203 - Model Optimization is done
+2025-06-08 01:04:28,029 - INFO - client_runner.py:1876 - Saved HAR to: /home/ching/yolov8n.har
+2025-06-08 01:04:28,031 - INFO - client_runner.py:496 - Loading model script commands to yolov8n from /home/ching/hailo_model_zoo/hailo_model_zoo/cfg/alls/generic/yolov8n.alls
+2025-06-08 01:04:28,068 - INFO - commands.py:4272 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-06-08 01:04:28,071 - INFO - client_runner.py:499 - Appending model script commands to yolov8n from string
+2025-06-08 01:04:28,077 - INFO - commands.py:4272 - ParsedPerformanceParam command, setting optimization_level(max=2)
+2025-06-08 01:22:29,606 - INFO - client_runner.py:1876 - Saved HAR to: /home/ching/yolov8n.har
